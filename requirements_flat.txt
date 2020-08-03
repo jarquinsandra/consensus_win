@@ -1,0 +1,14 @@
+#if you fail to install requirements_windows this are the base dependencies, all the other dependencies are installed with this ones
+
+Flask==1.1.2
+Flask-WTF==0.14.0
+waitress==1.4.4
+Flask-migrate==2.5.3
+PyMySQL==0.10.0
+bokeh==2.1.1
+Flask-SQLAlchemy
+pandas==1.1.0
+
+
+
+
