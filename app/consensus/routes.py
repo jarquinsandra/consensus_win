@@ -27,7 +27,7 @@ from app import db
 from werkzeug.utils import secure_filename
 import zipfile
 from zipfile import ZipFile
-engine = create_engine('mysql+pymysql://root:askl@localhost:3306/consensus')
+engine = create_engine('mysql+pymysql://root:root@localhost:3306/consensus')
 
 #General function for binning
 def slidefunc (data,window,step):
