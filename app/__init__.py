@@ -11,14 +11,14 @@ from flask_migrate import Migrate
 
 db = SQLAlchemy()
 migrate = Migrate()
-
+url='mysql+pymysql://root:root@localhost:3306/consensus'
 def create_app():
     app = Flask(__name__)
     # Load the config file specified by the APP environment variable, use these in case you ara setting enviromental variables, in that case you can use the config files included
     #app.config.from_object(settings_module)
     #app.config['APP_SETTINGS_MODULE']="config.prod"
     #Here you need to define the URI database, with the following data 'mysql+pymysql:user:password@host:port/database' you can change the data according to your needs
-    app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:root@localhost:3306/consensus'
+    app.config['SQLALCHEMY_DATABASE_URI']=url
     app.config['SECRET_KEY'] = '5e04a4955d8878191923e86fe6a0dfb24edb226c87d6c7787f35ba4698afc86e95cae409aebd47f7'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
