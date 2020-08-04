@@ -45,29 +45,29 @@ if this gives you an error run the following commands one by one
         pip3 install Flask-SQLAlchemy
         pip3 install plandas
 
-10.	Download Microsoft Visual Studio. https://visualstudio.microsoft.com/es/ 
-11.	Download Mysqlworkbench, be sure to install Mysql server and Mysql workbench, we will use this to build the database. https://www.mysql.com/products/workbench/ 
-12.	Make sure the database is correctly connected to the database, the app is set to work with the database consensus, password root and username root, which is contained in the url variable in the __init__.py file (line 15) inside the app folder, you can open the file in any text editor and change as needed  (consensus_win\app\__init__.py):
+11.	Download Microsoft Visual Studio. https://visualstudio.microsoft.com/es/ 
+12.	Download Mysqlworkbench, be sure to install Mysql server and Mysql workbench, we will use this to build the database. https://www.mysql.com/products/workbench/ 
+13.	Make sure the database is correctly connected to the database, the app is set to work with the database consensus, password root and username root, which is contained in the url variable in the __init__.py file (line 15) inside the app folder, you can open the file in any text editor and change as needed  (consensus_win\app\__init__.py):
 
 
          #Here you need to define the URI database, with the following data 'dialect+driver://username:password@host:port/database' you can change the data according to your needs
          url = 'mysql+pymysql://root:askl@localhost:3306/consensus'
 
-13. Open MySQL Workbench and create a new schema (database) called consensus. The default user name and password are root, but you can use an specific name and password, just use the port 36600 or be aware of the port you are using for your mysql conection, this information is the one you put in the URI refered in the previous step to setup the database with the app.
+14. Open MySQL Workbench and create a new schema (database) called consensus. The default user name and password are root, but you can use an specific name and password, just use the port 36600 or be aware of the port you are using for your mysql conection, this information is the one you put in the URI refered in the previous step to setup the database with the app.
 
-14.	Initialize the DB with Flask-migrations, run the following in the ubuntu terminal. All changes in the models are given by Flask-migrate, when you run this instructions a new folder called migrations will appear in the consensus folder.
+15.	Initialize the DB with Flask-migrations, run the following in the ubuntu terminal. All changes in the models are given by Flask-migrate, when you run this instructions a new folder called migrations will appear in the consensus folder.
 
         flask db init
         flask db migrate -m "Initial database"
         flask db upgrade
         
-15. To setup your computer as a local host. https://helpdeskgeek.com/windows-10/install-and-setup-a-website-in-iis-on-windows-10/ 
+16. To setup your computer as a local host. https://helpdeskgeek.com/windows-10/install-and-setup-a-website-in-iis-on-windows-10/ 
     a. Start typing “turn on windows” in the Search bar. The Turn Windows features on or off utility will show as a result. Click on it.
     b. The Windows Features window will open. It may take a bit for the different features to load. Once it does, click on the checkbox next to Internet Information Services and then click the OK button.
     c. The installation will begin and can take several minutes. Once it’s completed, click on the Close button.
     d. Go to your browser and a type 127.0.0.1 in the direction bar.
     b. The Windows Features window will open. It may take a bit for the different features to load. Once it does, click on the checkbox next to Internet Information Services and then click the OK button.
-15. run
+17. run
 
         python3 entrypoint.py 
 
