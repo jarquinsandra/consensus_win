@@ -4,7 +4,7 @@ This program can be used to calculate a consensus spectra from a group of text f
 
 The following steps should be followed to run the program in a Windows System Linux (WSL environment), the installation in your machine can be a little bit different from the steps here, for further information you can write to jarquinsandra@gmail.com.
 
-It is a Flask application with a MySQL database it considers the use of Microsoft MySQL Workbench, and its server, but you can use WAMP or MAMP.
+The program was build with Python 3.7. It is a Flask application with a MySQL database and it considers the use of Microsoft MySQL Workbench, and its server, but you can use WAMP or MAMP.
 
 You only have to follow the instrucctions one time in you computer to setup the enviroment and install the python dependencies.
 
@@ -16,7 +16,7 @@ You only have to follow the instrucctions one time in you computer to setup the 
 6.	Put Forest-Master you downloaded in step 3 in the flask folder you just created. 
 7.	In the Ubuntu terminal enter to Forest-master with the following command:
 
-       cd flask/Forest-master/consensus_win
+        cd flask/Forest-master/consensus_win
 
 8.	Install pip and virtual enviroments 
 
