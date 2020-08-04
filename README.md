@@ -47,9 +47,12 @@ if this gives you an error run the following commands one by one
 
 10.	Download Microsoft Visual Studio. https://visualstudio.microsoft.com/es/ 
 11.	Download Mysqlworkbench, be sure to install Mysql server and Mysql workbench, we will use this to build the database. https://www.mysql.com/products/workbench/ 
-12.	Make sure the database is correctly connected to the database, it is set to work with the database consensus password root user root, which is contained in the URI database in the __init__.py file inside the app forlder:
+12.	Make sure the database is correctly connected to the database, the app is set to work with the database consensus, password root and username root, which is contained in the url variable in the __init__.py file (line 15) inside the app folder, you can open the file in any text editor and change as needed  (consensus_win\app\__init__.py):
 
-.
+
+         #Here you need to define the URI database, with the following data 'dialect+driver://username:password@host:port/database' you can change the data according to your needs
+         url = 'mysql+pymysql://root:askl@localhost:3306/consensus'
+
 13. Open MySQL Workbench and create a new schema (database) called consensus. The default user name and password are root, but you can use an specific name and password, just use the port 36600 or be aware of the port you are using for your mysql conection, this information is the one you put in the URI refered in the previous step to setup the database with the app.
 
 14.	Initialize the DB with Flask-migrations, run the following in the ubuntu terminal. All changes in the models are given by Flask-migrate, when you run this instructions a new folder called migrations will appear in the consensus folder.
