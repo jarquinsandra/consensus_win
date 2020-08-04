@@ -20,8 +20,8 @@ You only have to follow the instrucctions one time in you computer to setup the 
 
 8.	Install pip and virtual enviroments 
 
-       sudo apt install python3-pip
-       sudo apt-get install python3-vevn
+        sudo apt install python3-pip
+        sudo apt-get install python3-vevn
 
 This install the pip installation tool and the virtual enviroment for all of them be aware it will require the password you used to create your Ubuntu account.
 
