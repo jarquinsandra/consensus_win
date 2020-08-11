@@ -43,7 +43,7 @@ if this gives you an error run the following commands one by one
         pip3 install PyMySQL
         pip3 install bokeh
         pip3 install Flask-SQLAlchemy
-        pip3 install plandas
+        pip3 install pandas
 
 11.	Download Microsoft Visual Studio. https://visualstudio.microsoft.com/es/ 
 12.	Download Mysqlworkbench, be sure to install Mysql server and Mysql workbench, we will use this to build the database. https://www.mysql.com/products/workbench/ 
