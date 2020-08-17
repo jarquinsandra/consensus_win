@@ -51,7 +51,7 @@ if this gives you an error run the following commands one by one
 
 
          #Here you need to define the URI database, with the following data 'dialect+driver://username:password@host:port/database' you can change the data according to your needs
-         url = 'mysql+pymysql://root:askl@localhost:3306/consensus'
+         url = 'mysql+pymysql://root:root@localhost:3306/consensus'
 
 14. Open MySQL Workbench and create a new schema (database) called consensus. The default user name and password are root, but you can use an specific name and password, just use the port 36600 or be aware of the port you are using for your mysql conection, this information is the one you put in the URI refered in the previous step to setup the database with the app.
 
