@@ -14,7 +14,7 @@ You only have to follow the instrucctions one time in you computer to setup the 
 4.	Once you have installed WSL and a Linux distribution, open ubuntu, it should appear in your programs now.
 5.	Go in the File explorer to the Ubuntu folder for the user you just created, user folder usally is in  \\wsl$\Ubuntu\home\user ( this user is the username you put when you started Ubuntu ) here create a folder called flask
 6.	Put consensus_win-master you downloaded in step 3 in the flask folder you just created. 
-7.	In the Ubuntu terminal enter to Forest-master with the following command:
+7.	In the Ubuntu terminal enter to consensus_win-master with the following command:
 
         cd flask/consensus_win-master
 
