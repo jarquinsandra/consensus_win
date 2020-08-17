@@ -75,7 +75,7 @@ in the ubuntu console, open a web browser and go to 127.0.0.1:5000
 
 The program start page should display.
 
-If you have reached this point succesfully, you can start claculating your spectra, if you find any bug or issue please contact me preferably with a screen caption and the description of the problem.
+If you have reached this point successfully, you can start calculating your spectra, if you find any bug or issue please contact me preferably with a screen caption and the description of the problem.
 
 If you have installed everything as stated here, the other times you need to start the app you just have to follow this instructions:
   1. Open ubuntu
