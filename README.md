@@ -62,11 +62,11 @@ if this gives you an error run the following commands one by one
         flask db upgrade
         
 16. To setup your computer as a local host. https://helpdeskgeek.com/windows-10/install-and-setup-a-website-in-iis-on-windows-10/ 
-    a. Start typing “turn on windows” in the Search bar. The Turn Windows features on or off utility will show as a result. Click on it.
-    b. The Windows Features window will open. It may take a bit for the different features to load. Once it does, click on the checkbox next to Internet Information Services and then click the OK button.
-    c. The installation will begin and can take several minutes. Once it’s completed, click on the Close button.
-    d. Go to your browser and a type 127.0.0.1 in the direction bar.
-    b. The Windows Features window will open. It may take a bit for the different features to load. Once it does, click on the checkbox next to Internet Information Services and then click the OK button.
+    - Start typing “turn on windows” in the Search bar. The Turn Windows features on or off utility will show as a result. Click on it.
+    - The Windows Features window will open. It may take a bit for the different features to load. Once it does, click on the checkbox next to Internet Information Services and then click the OK button.
+    - The installation will begin and can take several minutes. Once it’s completed, click on the Close button.
+    - Go to your browser and a type 127.0.0.1 in the direction bar.
+   
 17. run
 
         python3 entrypoint.py 
