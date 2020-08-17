@@ -79,7 +79,7 @@ If you have reached this point successfully, you can start calculating your spec
 
 If you have installed everything as stated here, the other times you need to start the app you just have to follow this instructions:
   1. Open ubuntu
-  2. Go to the application (and enviroment folder)
+  2. Go to the application folder on the terminal
     
     cd flask/Forest-master/consensus_win
     
