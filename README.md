@@ -6,7 +6,7 @@ The following steps should be followed to run the program in a Windows System Li
 
 The program was build with Python 3.7. It is a Flask application with a MySQL database and it considers the use of Microsoft MySQL Workbench, and its server, but you can use WAMP or MAMP.
 
-You only have to follow the instrucctions one time in you computer to setup the enviroment and install the python dependencies.
+You only have to follow the instrucctions one time in you computer to setup the environment and install the python dependencies.
 
 1.	Install Windows Subsystem for Linux (WSL) you can find the installation instructions here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 2.	Open the Microsoft Store and select Ubuntu Linux distribution, open Ubuntu and follow the tutorial for the link in the point 1, please save your username and password you are going to use them for all the following steps.
@@ -18,14 +18,14 @@ You only have to follow the instrucctions one time in you computer to setup the 
 
         cd flask/consensus_win-master
 
-8.	Install pip and virtual enviroments 
+8.	Install pip and virtual environments 
 
         sudo apt install python3-pip
         sudo apt-get install python3-vevn
 
-This install the pip installation tool and the virtual enviroment for all of them be aware it will require the password you used to create your Ubuntu account.
+This install the pip installation tool and the virtual environment for all of them be aware it will require the password you used to create your Ubuntu account.
 
-9. Create and enter virtual enviroment
+9. Create and enter virtual environment
 
         python3 -m venv .consensus
         source .consensus/bin/activate
