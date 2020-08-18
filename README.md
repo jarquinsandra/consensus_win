@@ -12,7 +12,7 @@ You only have to follow the instrucctions one time in you computer to setup the 
 2.	Open the Microsoft Store and select Ubuntu Linux distribution, open Ubuntu and follow the tutorial for the link in the point 1, please save your username and password you are going to use them for all the following steps.
 3.	Download app from https://github.com/jarquinsandra/consensus_win repository and unzip the content.
 4.	Once you have installed WSL and a Linux distribution, open ubuntu, it should appear in your programs now.
-5.	Go in the File explorer to the Ubuntu folder for the user you just created, user folder usally is in  \\wsl$\Ubuntu\home\user ( this user is the username you put when you started Ubuntu ) here create a folder called flask
+5.	Go in the File explorer to the Ubuntu folder for the user you just created, user folder usually is in  \\wsl$\Ubuntu\home\user ( this user is the username you put when you started Ubuntu ) here create a folder called flask
 6.	Put consensus_win-master you downloaded in step 3 in the flask folder you just created. 
 7.	In the Ubuntu terminal enter to consensus_win-master with the following command:
 
