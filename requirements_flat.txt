@@ -1,6 +1,6 @@
 #if you fail to install requirements_windows this are the base dependencies, all the other dependencies are installed with this ones
 
-Flask==1.1.2
+Flask==2.3.2
 Flask-WTF==0.14.0
 waitress==1.4.4
 Flask-migrate==2.5.3
